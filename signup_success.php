@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STATION 6, BATASAN</title>
+    <link rel="shortcut icon"  href="images/logo1-removebg.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="0style.css">
+</head>
+<body>
+    
+<div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 form">
+                <form action="" method="POST" autocomplete="">
+                    <h2 class="text-center">Registration Done</h2>
+                    <p class="text-center">You are now a Valid Customer!</p>
+                    <div class="link login-link text-center"><a href="login.php"> Proceed to Login ></a></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

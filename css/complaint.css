@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap');
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    background-color: rgba(73, 97, 193, 0.92);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("2.jpg");
+    background-blend-mode: multiply;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #6D6F79;
+    font-family: Arial;
+    cursor: pointer;
+}
+a:hover {
+    font-size: 16px;
+    color: #9598a7;
+}
+.card {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height : 500px;
+    width: 1000px;
+    border-radius: 10px;
+    background-color: #ffffff97;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    overflow-y: auto;
+}
+.card::-webkit-scrollbar{
+    width: 2px;
+    background-color: azure;
+    height: 50px;
+}
+.card::-webkit-scrollbar-thumb{
+    background-color: rgb(20, 14, 200);
+}
+.card .primary-heading {
+    text-align: center;
+    font-family: josefin sans;
+    color: rgb(29, 29, 29);
+    padding-top: 50px ;
+    font-size: 2em;
+}
+.paragraph {
+    font-family: josefin sans;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-right: 25px;
+    padding-top: 50px;
+    font-size: 1em;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+.info{
+    text-align: center;
+    padding: 10px;
+    
+}
+.info h3{
+    font-size: 16px;
+    color: rgb(1, 10, 50);
+}
+.info h3:hover{
+   
+    color: rgb(230, 253, 255);
+}
+.headscroll h4{
+    margin-top: 14px;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 40px;
+}
+.headscroll h4 span{
+    color: rgb(221, 9, 9);
+    text-transform: uppercase;
+}
+.buttons{
+    display: flex;
+    padding: 5.0 20px;
+    justify-content: center;
+    padding: 15px;
+  
+}
+.btn-yes{
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    
+}
+.btn-yes:hover{
+    background-color: #585590;
+}
+.bold {
+    font-weight: 700;
+    color: white;
+}
+.footer-heading {
+    text-align: center;
+    font-family: josefin sans;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 2em;
+    line-height: 35px;
+}
+
+.footer-heading2 {
+    text-align: center;
+    font-family: josefin sans;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    line-height: 35px;
+}
+
+
+/*Query*/
+@media only screen and (max-width: 1218px) {
+    .card {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 1000px;
+        border-radius: 5px;
+        background-color: #333541;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 1012px) {
+    .card {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height : 2350px;
+        width: 800px;
+        border-radius: 5px;
+        background-color: #333541;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 832px) {
+    .card {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height : 850px;
+        width: 600px;
+        border-radius: 5px;
+        background-color: #333541;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card .primary-heading {
+        font-size: 3.5em;
+    }
+
+    .footer-heading {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 626px) {
+    .card {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height : 1850px;
+        width: 450px;
+        border-radius: 5px;
+        background-color: #333541;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header-mobile {
+        display: block;
+    }
+
+    .main-header {
+        display: none;
+    }
+
+    .card .primary-heading {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .card {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height : 550px;
+        width: 350px;
+        border-radius: 5px;
+        background-color: #333541;
+        margin-left: 1;
+        margin-right: auto;
+    }
+    .card .paragraph{
+        margin-left: 25px;
+    }
+    .card .primary-heading {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .card {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height : 500px;
+        width: 290px;
+        border-radius: 5px;
+        background-color: #333541;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card .primary-heading {
+        font-size: 2em;
+    }
+}   
